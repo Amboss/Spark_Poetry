@@ -3,15 +3,15 @@ from pyspark.sql import SparkSession, types
 
 from quinn.extensions import *
 
-import app.sparksession as S
-import app.transformation as T
+import Spark_Poetry.sparksession as S
+import Spark_Poetry.transformation as T
 
 
 class TestTransformations(object):
 
     def test_with_greeting(self):
         """
-        Test Spark session
+        First test
         :return:
         """
         source_data = [("jose", 1), ("li", 2)]
@@ -32,7 +32,7 @@ class TestTransformations(object):
 
     def test_with_clean_first_name(self):
         """
-        Test quinn.remove_non_word_characters() function
+        Second test
         :return:
         """
         source_df = S.spark.createDataFrame([
