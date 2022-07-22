@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "Spark_Poetry"
+version = "0.1.0"
+description = ""
+authors = ["Amboss <Evsyukov Sergej>"]
+packages = [
+    { include = "Spark_Poetry" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.3.0"
+quinn = "^0.9.0"
+coverage = "^6.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
