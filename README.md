@@ -34,9 +34,9 @@ poetry add pyspark
 sudo apt-get install python3.10-distutils
 
 ```
-5) Creating Spark session
-6) Creating Dataframe file to transform
-7) Creating file in /test directory to test transformation
+5) [*Creating Spark session*][2]
+6) [*Creating Dataframe file to transform*][3]
+7) [*Creating PyTest for transformation file*][4]
 8) Executing first test:
 
 ```shell
@@ -103,5 +103,6 @@ poetry build
 ```
 
 [1]: https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions
-[2]:
-[3]:
+[2]: https://github.com/Amboss/Spark_Poetry/blob/master/Spark_Poetry/sparksession.py
+[3]: https://github.com/Amboss/Spark_Poetry/blob/master/Spark_Poetry/transformation.py
+[4]: https://github.com/Amboss/Spark_Poetry/blob/master/tests/test_transformations.py
