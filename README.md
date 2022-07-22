@@ -1,4 +1,4 @@
-# Spark standalone
+# Spark Poetry
 
 ### Skills and tools:
 `PySpark`, `PyTest`, `Poetry`, `Wheel`, `Quinn`
