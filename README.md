@@ -1,7 +1,7 @@
 # Spark Poetry
 
 ### Skills and tools:
-`PySpark`, `PyTest`, `Poetry`, `Wheel`, `Quinn`
+`PySpark` `PyTest` `Poetry` `Wheel` `Quinn`
 
 ---
 ### Task: Create PySpark project with Poetry DMS:
