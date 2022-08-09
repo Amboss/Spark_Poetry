@@ -103,6 +103,6 @@ poetry build
 ```
 
 [1]: https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions
-[2]: https://github.com/Amboss/Spark_Poetry/blob/master/Spark_Poetry/sparksession.py
-[3]: https://github.com/Amboss/Spark_Poetry/blob/master/Spark_Poetry/transformation.py
-[4]: https://github.com/Amboss/Spark_Poetry/blob/master/tests/test_transformations.py
+[2]: https://github.com/s-evsyukov/Spark_Poetry/blob/f24a88982fe8faa1e0ec340c1b02b25198cbc83b/Spark_Poetry/sparksession.py
+[3]: https://github.com/s-evsyukov/Spark_Poetry/blob/f24a88982fe8faa1e0ec340c1b02b25198cbc83b/Spark_Poetry/transformation.py
+[4]: https://github.com/s-evsyukov/Spark_Poetry/blob/f24a88982fe8faa1e0ec340c1b02b25198cbc83b/tests/test_transformations.py
